@@ -1,0 +1,14 @@
+{
+  "name": "atomic-queue",
+  "version": "1.0.0",
+  "description": "Zero‑dependency lock‑free multi‑producer multi‑consumer queue for Node.js using SharedArrayBuffer and Atomics.",
+  "type": "module",
+  "main": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "license": "MIT"
+}
